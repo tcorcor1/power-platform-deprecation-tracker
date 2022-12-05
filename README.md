@@ -1,4 +1,11 @@
-# Power Platform Deprecation Tracker
+<div align="center">
+  <img alt="PowerApps" src="/docs/img/PowerApps_scalable.svg" height="50">
+  <img alt="Dataverse" src="/docs/img/Dataverse_scalable.svg" height="50">
+  <img alt="PowerAutomate" src="/docs/img/PowerAutomate_scalable.svg" height="50">
+  <img alt="PowerBI" src="/docs/img/PowerBI_scalable.svg" height="50">
+  <img alt="PowerVirtualAgents" src="/docs/img/PowerVirtualAgents_scalable.svg" height="50">
+  <h1>Power Platform Deprecation Tracker</h1>
+</div>
 
 Repository designed for tracking and notifiying subscribers on changes to Microsoft Power Platform deprecation pages.
 
