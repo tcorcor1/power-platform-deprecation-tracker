@@ -1,0 +1,23 @@
+Feature deprecations for Field Service
+
+  
+Article													  11/18/2022  2 minutes to read  
+																	4 contributors
+															FeedbackIn this article
+
+Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
+
+Administrators and IT professionals can use this information to prepare for future releases.
+
+Important
+
+&quot;Deprecated&quot; means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification will span at least six months. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+Dynamics 365 Field Service (on-premises) - June 30, 2022
+
+For more information about this deprecation, see this blog post.
+
+Field Service Moblie (Xamarin) - June 30, 2022
+
+For more information about this deprecation, see this blog post or Frequently Asked Questions.
+
