@@ -3,15 +3,21 @@
   <img alt="Dataverse" src="/docs/img/Dataverse_scalable.svg" height="50">
   <img alt="PowerAutomate" src="/docs/img/PowerAutomate_scalable.svg" height="50">
   <img alt="PowerBI" src="/docs/img/PowerBI_scalable.svg" height="50">
+  <img alt="PowerPages" src="/docs/img/PowerPages_scalable.svg" height="50">
   <img alt="PowerVirtualAgents" src="/docs/img/PowerVirtualAgents_scalable.svg" height="50">
   <h1>Power Platform Deprecation Tracker</h1>
 </div>
 
 Repository designed for tracking and notifiying subscribers on changes to Microsoft Power Platform deprecation pages.
 
-**Tracked pages as of 12/2/2022**:
+**Tracked pages as of 12/6/2022**:
 
 - [Important changes (deprecations) coming in Power Apps and Power Automate](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
+- [Important changes (deprecations) coming in Dynamics 365 Sales](https://learn.microsoft.com/en-us/dynamics365/sales/deprecations-sales)
+- [Important changes (deprecations) coming in Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/deprecations-customer-service)
+- [Important changes (deprecations) coming in Dynamics 365 for Field Service](https://learn.microsoft.com/en-us/dynamics365/field-service/deprecations-field-service)
+- [Important changes (deprecations) coming in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/important-changes-deprecations)
+- [Important changes (deprecations) coming in Power Apps portals](https://learn.microsoft.com/en-us/power-apps/maker/portals/important-changes-deprecations)
 
 I would love to track more pages and expand on this idea. If you have suggestions for pages please leave a comment on my [blog post](https://tldr-dynamics.com/blog/power-platform-deprecation-tracker) or drop an issue here.
 
