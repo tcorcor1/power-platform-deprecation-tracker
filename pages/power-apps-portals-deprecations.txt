@@ -1,7 +1,7 @@
 Important upcoming changes and deprecations in Power Apps portals
 
   
-Article													  12/09/2022  2 minutes to read  
+Article													  12/21/2022  2 minutes to read  
 																	6 contributors
 															FeedbackIn this article
 
@@ -19,6 +19,10 @@ Makers, developers, and IT pros can use this information to prepare for future r
 Important
 
 Deprecated means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Power Apps portal admin center
+
+The Power Apps portal admin center is now deprecated and no longer available as of June 2023. Use the new Power Pages admin hub in the Power Platform admin center.
 
 Controlling site visibility changes in Power Pages
 
