@@ -1,8 +1,8 @@
 Important changes (deprecations) coming in Power Apps and Power Automate
 
   
-Article													  12/22/2022  39 minutes to read  
-																	32 contributors
+Article													  01/10/2023  39 minutes to read  
+																	33 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -100,7 +100,7 @@ On June 20, 2022 Power Apps for Windows will be available. For more information 
 
 Data Export Service deprecation
 
-Effective November 2021, Data Export Service was deprecated. Data Export Service will continue to work and will be fully supported until it reaches end-of-support and end-of-life in November 2022. This will impact Dynamics 365 and Power Platform customers who use Data Export Service add-on from Microsoft AppSource. The Data Export Service add-on will not be available for download for new customers. Existing customers will be able to download and use this add-on from AppSource. We recommend that customers transition to Azure Synapse Link for Dataverse. For more information, see our blog or download the deprecation playbook.
+Effective November 2021, Data Export Service was deprecated. Data Export Service will continue to work and will be fully supported until it reaches end-of-support and end-of-life in November 2022. This will impact Dynamics 365 and Power Platform customers who use Data Export Service add-on from Microsoft AppSource. The Data Export Service add-on will not be available for download for all customers. We recommend that customers transition to Azure Synapse Link for Dataverse. For more information, see our blog or download the deprecation playbook.
 
 Dataverse OData v2.0 Service removal
 
