@@ -8,6 +8,8 @@
   <h1>Power Platform Deprecation Tracker</h1>
 </div>
 
+**:pushpin: For D365 Finance & Operations deprecation announcements please see [D365 Finance & Ops Deprecation Tracker](https://github.com/tcorcor1/d365-finance-ops-deprecation-tracker)**
+
 Repository designed for tracking and notifiying subscribers on changes to Microsoft Power Platform deprecation pages.
 
 **Tracked pages as of 12/6/2022**:
