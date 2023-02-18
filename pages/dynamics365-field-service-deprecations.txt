@@ -1,7 +1,7 @@
 Feature deprecations for Field Service
 
   
-Article													  01/27/2023  2 minutes to read  
+Article													  02/17/2023  2 minutes to read  
 																	4 contributors
 															FeedbackIn this article
 
