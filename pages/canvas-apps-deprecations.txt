@@ -1,8 +1,9 @@
 Important upcoming changes (deprecations) in canvas apps
 
   
-Article													  12/16/2022  2 minutes to read  
-1 contributor															FeedbackIn this article
+Article													  03/03/2023  2 minutes to read  
+																	2 contributors
+															FeedbackIn this article
 
 The announcements for changes (deprecations) described in this article apply to canvas apps.
 
