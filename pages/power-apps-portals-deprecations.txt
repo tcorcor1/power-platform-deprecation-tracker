@@ -1,28 +1,19 @@
-Important upcoming changes and deprecations in Power Apps portals
+Important upcoming changes and deprecations in Power Pages
 
   
-Article													  03/01/2023  2 minutes to read  
-																	6 contributors
+Article													  03/02/2023  4 minutes to read  
+																	4 contributors
 															FeedbackIn this article
 
-Note
-
-Effective October 12, 2022, Power Apps portals is Power Pages. More information: Microsoft Power Pages is now generally available (blog)
-
-
-We will soon migrate and merge the Power Apps portals documentation with Power Pages documentation.
-
-The announcements for changes and deprecations described in this article apply to Power Apps portals.
-
-Makers, developers, and IT pros can use this information to prepare for future releases.
+The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
 Important
 
 Deprecated means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-Power Apps portal admin center
+Power Apps portals admin center
 
-The Power Apps portal admin center is now deprecated and no longer available as of June 2023. Use the new Power Pages admin hub in the Power Platform admin center.
+The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new Power Pages admin hub in the Power Platform admin center.
 
 Controlling site visibility changes in Power Pages
 
@@ -32,7 +23,7 @@ At launch, users with the system administrator role along with service admins wi
 
 Note
 
-Beginning February 1st, 2023, service admins need to explicitly specify which system administrators are allowed to change site visibility; however, admins can grant or revoke the privilege of changing site visibility status for system administrators at tenant level by running a PowerShell script. Additionally, to provide granular control on who can change the site visibility status, admins can delegate the permissions to specific System administrators in certain Azure Directory security groups.
+After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: Change tenant-level setting
 
 OAuth 2.0 implicit grant flow within your portal
 
@@ -42,17 +33,17 @@ Note
 
   All existing customers who are using this deprecated feature need to migrate to the supported method by October 2022.  For more information on using a custom certificate, go to   Using a custom certificate  .  For sample code on using POST calls on the Token endpoint, go to   Token endpoint sample  .List OData feed
 
-Starting June 2022, using OData feeds to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the portal Web API.
+Starting June 2022, using OData feeds to interact with data via RESTful web services will be deprecated. We recommend that you migrate to the Power Pages Web API.
 
 Note
 
-  Starting October 2022, newly provisioned portals won't able to use list OData features.  The OData feeds list feature will be removed October 1, 2023.Portal content editor
+  Starting October 2022, newly provisioned websites won't able to use list OData features.  The OData feeds list feature will be removed October 1, 2023.Portal content editor
 
 Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
 Note
 
-This feature will be removed on October 1, 2023.
+This feature will be removed by October 1, 2023.
 
 Portals search using Lucene.NET search
 
@@ -66,7 +57,7 @@ Content Delivery Network for US Government
 
 Starting January 2022, Power Apps portals for US Government will begin using Azure Content Delivery Network for default JavaScript and CSS files. Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
 
-[ Power Apps portals version ][ Content Delivery Network URL ]
+[ Power Pages version ][ Content Delivery Network URL ]
 
 [ Government Community Cloud (GCC) ][ https://gov.content.powerapps.us ]
 
@@ -76,21 +67,21 @@ Starting January 2022, Power Apps portals for US Government will begin using Azu
 
 
 
-Table permission changes for forms and lists on new portals
+Table permission changes for forms and lists on new websites
 
-Starting with release 9.3.7.x, newly created portals will have table permissions enforced for all forms and lists, irrespective of the Enable Table Permissions setting.
+Starting with release 9.3.7.x, newly created websites will have table permissions enforced for all forms and lists, irrespective of the Enable Table Permissions setting.
 
-Also, with the same release, lists on all portals (new or existing) that have list OData feeds enabled will require that the appropriate table permissions be set up for the feed on these lists to work.
+Also, with the same release, lists on all websites (new or existing) that have list OData feeds enabled will require that the appropriate table permissions be set up for the feed on these lists to work.
 
 Note
 
-The changes described above also apply to portals converted from trial to production.
+The changes described above also apply to websites converted from trial to production.
 
 To configure anonymous access explicitly, use proper table permissions and web role set up instead.
 
 SameSite mode changes
 
-Starting with portals version 9.3.6.x, makers can mark SameSite mode as Strict for all portal cookies where applicable.
+Starting with Power Pages version 9.3.6.x, makers can mark SameSite mode as Strict for all portal cookies where applicable.
 
 With this change, we're adding a new website setting to control the SameSite mode for all cookies, configurable to the level of specific cookies.
 
@@ -102,15 +93,15 @@ With this change, we're adding a new website setting to control the SameSite mod
 
 
 
-The default value for all existing and newly provisioned portals is None.
+The default value for all existing and newly provisioned websites is None.
 
-To learn how to configure site settings for portals, go to Configure site settings for portals.
+To learn how to configure site settings for websites, go to Configure site settings for portals.
 
-Tracking for webpage, web file, and login
+Tracking for webpage, and web file
 
 Starting with portals version 9.3.4.x, the following functionality has been retired:
 
-  Webpage tracking  Web file tracking  Login trackingSee also
+  Webpage tracking  Web file trackingSee also
 
 Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps
 
