@@ -1,13 +1,11 @@
 Feature deprecations for Field Service
 
   
-Article													  03/10/2023  2 minutes to read  
+Article													  03/15/2023  2 minutes to read  
 																	4 contributors
 															FeedbackIn this article
 
-Features that have been deprecated in Dynamics 365 Field Service are listed in this article. Learn more about deprecations in Universal Resource Scheduling.
-
-Administrators and IT professionals can use this information to prepare for future releases.
+Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
 
 Important
 
@@ -21,3 +19,10 @@ Field Service Mobile (Xamarin) - June 30, 2022
 
 For more information about this deprecation, see this blog post or Frequently Asked Questions.
 
+Deprecations in the scheduling solution
+
+Learn more about deprecations in Universal Resource Scheduling.
+
+Next steps
+
+  Dynamics 365 Field Service version history  Submit a feature idea
