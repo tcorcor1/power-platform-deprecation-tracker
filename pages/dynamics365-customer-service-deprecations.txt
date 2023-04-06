@@ -2,7 +2,7 @@ Deprecations in Customer Service
 
   
 Article													  01/13/2023  5 minutes to read  
-																	5 contributors
+																	6 contributors
 															FeedbackIn this article
 
 The features that have been deprecated in Customer Service are listed in this article.
@@ -86,6 +86,10 @@ Standard service level agreements (SLA Type field is set to Standard) are deprec
 Customer Service Insights standalone app is deprecated
 
 The Customer Service Insights standalone app is deprecated. We recommend that you migrate to the embedded experience within the core Dynamics 365 Customer Service applications.
+
+Customer Service workspace legacy layout is deprecated
+
+The Customer Service workspace legacy layout is deprecated from October 2023. For more information see Deprecated Customer Service workspace layout
 
 See also
 
