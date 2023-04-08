@@ -2,7 +2,7 @@ Feature deprecations
 
   
 Article													  03/15/2023  2 minutes to read  
-																	4 contributors
+																	5 contributors
 															FeedbackIn this article
 
 Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
