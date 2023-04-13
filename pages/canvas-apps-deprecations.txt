@@ -1,7 +1,7 @@
 Important upcoming changes (deprecations) in canvas apps
 
   
-Article													  03/03/2023  2 minutes to read  
+Article													  03/03/2023  
 																	2 contributors
 															FeedbackIn this article
 
