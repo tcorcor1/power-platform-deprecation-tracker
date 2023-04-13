@@ -1,7 +1,7 @@
 Feature deprecations
 
   
-Article													  03/15/2023  2 minutes to read  
+Article													  03/15/2023  
 																	5 contributors
 															FeedbackIn this article
 
