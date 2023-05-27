@@ -1,7 +1,7 @@
 Important changes (deprecations) coming in Power Apps and Power Automate
 
   
-Article													  04/12/2023  
+Article													  03/20/2023  
 																	34 contributors
 															FeedbackIn this article
 
