@@ -1,8 +1,8 @@
 Important changes (deprecations) coming in Power Apps and Power Automate
 
   
-Article													  04/12/2023  
-																	35 contributors
+Article													  06/29/2023  
+																	36 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -12,6 +12,10 @@ For deprecation information of other products, see Other deprecation articles la
 Important
 
 &quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Dynamics 365 for phones and tablets will be deprecated for online users and replaced by Power Apps
+
+Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will be deprecated for online users. Online users must migrate to the Power Apps mobile app. The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
 
 jQuery 2.1.1 to be removed in model-driven apps
 
