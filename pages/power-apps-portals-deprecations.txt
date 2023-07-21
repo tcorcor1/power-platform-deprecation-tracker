@@ -2,7 +2,7 @@ Important upcoming changes and deprecations in Power Pages
 
   
 Article													  03/02/2023  
-																	4 contributors
+																	5 contributors
 															FeedbackIn this article
 
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
