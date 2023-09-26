@@ -1,7 +1,7 @@
 Important upcoming changes and deprecations in Power Pages
 
   
-Article													  09/08/2023  
+Article													  09/25/2023  
 																	6 contributors
 															FeedbackIn this article
 
@@ -22,6 +22,10 @@ As part of providing a streamlined and improved experience for makers to create 
 Why don't I see Dynamics 365 portal templates in Power Apps?
 
 You can create websites using the Dynamics 365 templates from Power Pages. More information: Dynamics 365 templates
+
+Why don't I see Dynamics 365 portal templates in Power Pages?
+
+If you are using Power Pages for the first time, you won't see Dynamics 365 portals in your first site creation. You will see them in subsequent sites created, provided that the environment has any of the Dynamics 365 applications installed in it.
 
 Will I lose access to all portals and websites that I created in Power Apps?
 
