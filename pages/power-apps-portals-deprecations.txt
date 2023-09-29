@@ -2,7 +2,7 @@ Important upcoming changes and deprecations in Power Pages
 
   
 Article													  09/25/2023  
-																	6 contributors
+																	7 contributors
 															FeedbackIn this article
 
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
@@ -57,7 +57,7 @@ Starting June 2022, using OData feeds to interact with data via RESTful web serv
 
 Note
 
-  Starting October 2022, newly provisioned websites won't able to use list OData features.  The OData feeds list feature will be removed October 1, 2023.Portal content editor
+  Starting October 2022, newly provisioned websites won't able to use list OData features.  The OData feeds list feature will be removed April 1, 2024.Portal content editor
 
 Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
@@ -71,7 +71,7 @@ Starting with website version 9.4.4.xx, portal search uses Dataverse search as a
 
 Note
 
-All existing customers who use Lucene.NET search must migrate to Dataverse search by October 1, 2023.
+All existing customers who use Lucene.NET search must migrate to Dataverse search by October 1, 2024.
 
 Content Delivery Network for US Government
 
