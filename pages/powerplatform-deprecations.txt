@@ -23,7 +23,7 @@ As part of our ongoing efforts to enhance the security and performance of Datave
 
 What is changing?
 
-If a Microsoft Accounts (MSA) or Azure Active Directory (AAD ) accounts that are not registered in your AAD tenant, you will not be able to access Dataverse on the common endpoint. You will see an error message like &quot;AADSTS50020: user account âcontoso@contoso.com; from identity provider âhttps://sts.windows.net/{tenant Id}/â does not exist in tenant â{tenant name}â and cannot access the application â{application Id}â(Dataverse org name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Azure Active Directory user account.&quot;. Previously, Dataverse would deny access to these accounts, but now they will be blocked at the AAD tenant level. This change does not affect GDAP or CSP users.
+If a Microsoft Accounts (MSA) or Azure Active Directory (AAD ) accounts that are not registered in your AAD tenant, you will not be able to access Dataverse on the common endpoint. You will see an error message like &quot;AADSTS50020: user account 'contoso@contoso.com; from identity provider 'https://sts.windows.net/{tenant Id}/' does not exist in tenant '{tenant name}' and cannot access the application '{application Id}'(Dataverse org name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Azure Active Directory user account.&quot;. Previously, Dataverse would deny access to these accounts, but now they will be blocked at the AAD tenant level. This change does not affect GDAP or CSP users.
 
 What do you need to do?
 
@@ -514,29 +514,29 @@ and supported until they're officially removed from a future major release. A pu
 
 [ Deprecated Client API ][ Replacement Client API ][ Comments ]
 
-[ Xrm.Page ][ Forms: ExecutionContext.getFormContext  Commands: Send it as the PrimaryControl parameter ][ Use of the Xrm.Page object as a static access to the primary form context is still supported to maintain backward compatibility with the existing scripts. Based on the feedback, we understand that the usage of Xrm.Page is high, and it won't be removed as soon as some other client API methods listed in this section. We encourage you to use the new way of getting form content where possible. More information: Client API form contextAlthough Xrm.Page is deprecated, parent.Xrm.Page will continue to work in case of HTML web resources embedded in forms as this is the only way to access the form context from the HTML web resource. ]
+[ Xrm.Page ][ Forms: ExecutionContext.getFormContextCommands: Send it as the PrimaryControl parameter ][ Use of the Xrm.Page object as a static access to the primary form context is still supported to maintain backward compatibility with the existing scripts. Based on the feedback, we understand that the usage of Xrm.Page is high, and it won't be removed as soon as some other client API methods listed in this section. We encourage you to use the new way of getting form content where possible. More information: Client API form contextAlthough Xrm.Page is deprecated, parent.Xrm.Page will continue to work in case of HTML web resources embedded in forms as this is the only way to access the form context from the HTML web resource. ]
 
 [ Xrm.Page.context ][ Xrm.Utility.getGlobalContext ][ Allows access to the global context without going through the form context. ]
 
 [ Xrm.Page.context.getQueryStringParameters ][ formContext.data.attributes ][ The formContext.data.attributes API will make retrieval of non-entity bound data consistent across entity forms, metadata-driven dialogs, and task-based flows. The data will be a combination of custom values sent using the query string and what was specified in the parameters in the openForm method. ]
 
-[ Xrm.Page.context.getTimeZoneOffsetMinutes ][ globalContext.userSettings.getTimeZoneOffsetMinutes ][ Moved to globalContext.userSettings ]
+[ Xrm.Page.context.getTimeZoneOffsetMinutes ][ globalContext.userSettings.getTimeZoneOffsetMinutes ][ Moved to:globalContext.userSettings ]
 
-[ Xrm.Page.context.getUserId ][ globalContext.userSettings.userId ][ Moved to globalContext.userSettings ]
+[ Xrm.Page.context.getUserId ][ globalContext.userSettings.userId ][ Moved to:globalContext.userSettings ]
 
-[ Xrm.Page.context.getUserLcid ][ globalContext.userSettings.languageId ][ Moved to globalContext.userSettings ]
+[ Xrm.Page.context.getUserLcid ][ globalContext.userSettings.languageId ][ Moved to:globalContext.userSettings ]
 
-[ Xrm.Page.context.getUserName ][ globalContext.userSettings.userName ][ Moved to globalContext.userSettings ]
+[ Xrm.Page.context.getUserName ][ globalContext.userSettings.userName ][ Moved to:globalContext.userSettings ]
 
-[ Xrm.Page.context.getUserRoles ][ globalContext.userSettings.securityRoles ][ Moved to globalContext.userSettings ]
+[ Xrm.Page.context.getUserRoles ][ globalContext.userSettings.securityRoles ][ Moved to:globalContext.userSettings ]
 
-[ Xrm.Page.context.getIsAutoSaveEnabled ][ globalContext.organizationSettings.isAutoSaveEnabled ][ Moved to globalContext.organizationSettings ]
+[ Xrm.Page.context.getIsAutoSaveEnabled ][ globalContext.organizationSettings.isAutoSaveEnabled ][ Moved to:globalContext.organizationSettings ]
 
-[ Xrm.Page.context.getOrgLcid ][ globalContext.organizationSettings.languageId ][ Moved to globalContext.organizationSettings ]
+[ Xrm.Page.context.getOrgLcid ][ globalContext.organizationSettings.languageId ][ Moved to:globalContext.organizationSettings ]
 
-[ Xrm.Page.context.getOrgUniqueName ][ globalContext.organizationSettings.uniqueName ][ Moved to globalContext.organizationSettings ]
+[ Xrm.Page.context.getOrgUniqueName ][ globalContext.organizationSettings.uniqueName ][ Moved to:globalContext.organizationSettings ]
 
-[ Xrm.Page.data.entity.getDataXml ][ No change in the method, but use &quot;typename&quot; instead of type for lookup attributes. ][  ]
+[ Xrm.Page.data.entity.getDataXml ][ No change in the method, but use typename instead of type for lookup attributes. ][  ]
 
 [ GridRow.getData ][ GridRow.data ][ GridRow is essentially a form context. This change unifies the interface of GridRow with formContext. ]
 
@@ -556,7 +556,7 @@ and supported until they're officially removed from a future major release. A pu
 
 [ hideAutoComplete ][ Use a custom control created using Power Apps component framework ][  ]
 
-[ Xrm.Utility.alertDialog  ][ Xrm.Navigation.openAlertDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
+[ [Xrm.Utility.alertDialog  ][ Xrm.Navigation.openAlertDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
 
 [ Xrm.Utility.confirmDialog ][ Xrm.Navigation.openConfirmDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
 
@@ -570,7 +570,7 @@ and supported until they're officially removed from a future major release. A pu
 
 [ Xrm.Utility.openQuickCreate ][ Xrm.Navigation.openForm ][ Moving navigation actions to Xrm.Navigation ]
 
-[ Xrm.Utility.openWebResource ][ Xrm.Navigation.openWebResource ][ Moving navigation actions to Xrm.Navigation  Note: This API returns VOID in Unified Interface. ]
+[ Xrm.Utility.openWebResource ][ Xrm.Navigation.openWebResource ][ Moving navigation actions to Xrm.NavigationNote: This API returns VOID in Unified Interface. ]
 
 [ globalContext.organizationSettings.baseCurrencyId ][ globalContext.organizationSettings.baseCurrency ][ The replacement method lets you access the display name along with the ID of transaction currency. ]
 
