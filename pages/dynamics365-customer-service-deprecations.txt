@@ -1,7 +1,7 @@
 Deprecations in Customer Service
 
   
-Article													  06/21/2023  
+Article													  10/18/2023  
 																	6 contributors
 															FeedbackIn this article
 
@@ -25,9 +25,9 @@ With the release of the Customer Service admin center app that consolidates admi
 
   Service Management area in the Customer Service Hub app  Omnichannel admin center  App profile manager:   Is removed in April 2023.Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: Get started with Customer Service admin center
 
-Omnichannel Administration app is deprecated and will be removed in July 2023
+Omnichannel Administration app is deprecated and removed in July 2023
 
-Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: Get started with Customer Service admin center
+Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: Get started with Customer Service admin center
 
 Omnichannel for Customer Service agent-facing app is deprecated and will be removed in June 2024
 
