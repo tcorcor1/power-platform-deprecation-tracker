@@ -1,7 +1,7 @@
 Feature deprecations
 
   
-Article													  03/15/2023  
+Article													  01/04/2024  
 																	5 contributors
 															FeedbackIn this article
 
@@ -15,9 +15,13 @@ Dynamics 365 Field Service (on-premises) - June 30, 2022
 
 For more information about this deprecation, see this blog post.
 
-Field Service Mobile (Xamarin) - June 30, 2022
+Field Service Mobile (Xamarin) and related solutions - June 30, 2022
 
-For more information about this deprecation, see this blog post or Frequently Asked Questions.
+For more information about this deprecation, see this blog post.
+
+Solution components related to the Field Service Mobile (Xamarin) application are also deprecated:
+
+  msdyn_GeofenceAlerts  msdyn_FSMNotifications  Woodford | Resco MobileCRM WoodfordThese solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see Removing dependencies.
 
 Deprecations in the scheduling solution
 
