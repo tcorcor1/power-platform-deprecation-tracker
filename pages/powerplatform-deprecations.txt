@@ -1,8 +1,8 @@
 Important changes (deprecations) coming in Power Apps and Power Automate
 
   
-Article													  10/12/2023  
-																	39 contributors
+Article													  01/08/2024  
+																	40 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -12,6 +12,12 @@ For deprecation information of other products, see Other deprecation articles la
 Important
 
 &quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Activity Editor was removed in model-driven apps
+
+As part of a service update designed to improve security within Power Apps, we removed the deprecated Activity Editor control, and recommend the use of the rich text editor control. This change will be rolling out through January and February 2024.
+
+Learn more about adding the rich text editor control to a model-driven app. If you are using the Activity Editor control in a customized email or appointment experience in a model-driven app, learn more about switching to the rich text editor control.
 
 Classic app, form, and view designers are deprecated
 
