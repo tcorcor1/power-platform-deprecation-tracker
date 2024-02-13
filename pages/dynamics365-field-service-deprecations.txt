@@ -1,7 +1,7 @@
 Feature deprecations
 
   
-Article													  01/04/2024  
+Article													  02/13/2024  
 																	5 contributors
 															FeedbackIn this article
 
@@ -22,6 +22,8 @@ For more information about this deprecation, see this blog post.
 Solution components related to the Field Service Mobile (Xamarin) application are also deprecated:
 
   msdyn_GeofenceAlerts  msdyn_FSMNotifications  Woodford | Resco MobileCRM WoodfordThese solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see Removing dependencies.
+
+With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently not available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
 
 Deprecations in the scheduling solution
 
