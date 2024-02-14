@@ -1,7 +1,7 @@
 Deprecations in Customer Service
 
   
-Article													  11/23/2023  
+Article														  11/23/2023  
 1 contributor															FeedbackIn this article
 
 The features that have been deprecated in Customer Service are listed in this article.
