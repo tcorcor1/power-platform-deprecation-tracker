@@ -1,7 +1,7 @@
 Important upcoming changes and deprecations in Power Pages
 
   
-Article													  12/08/2023  
+Article														  12/08/2023  
 																	8 contributors
 															FeedbackIn this article
 
