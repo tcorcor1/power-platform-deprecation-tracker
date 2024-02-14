@@ -1,7 +1,7 @@
 Deprecations in Dynamics 365 Sales
 
   
-Article														  07/21/2023  
+Article													  07/21/2023  
 																	4 contributors
 															FeedbackIn this article
 
