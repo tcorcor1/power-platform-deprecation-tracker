@@ -1,7 +1,7 @@
 Important changes (deprecations) coming in Power Platform
 
   
-Article													  01/08/2024  
+Article														  01/08/2024  
 																	41 contributors
 															FeedbackIn this article
 
