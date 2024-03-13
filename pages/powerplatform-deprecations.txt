@@ -1,8 +1,8 @@
 Important changes (deprecations) coming in Power Platform
 
   
-Article														  01/08/2024  
-																	41 contributors
+Article														  03/12/2024  
+																	42 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -106,7 +106,7 @@ We'll be introducing new Fluent UI controls that have better usability, accessib
 
 Impact
 
-  Starting April 2023, these controls can no longer be added to forms.  Existing control instances will work on existing forms until April 2024.Action required by you
+  Starting April 2023, these controls can no longer be added to forms.  No additional support or fixes will be provided on these controls after April 2024.Action required by you
 
 Evaluate existing forms that include a deprecated control and replace them with a newer control.
 
