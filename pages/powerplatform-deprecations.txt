@@ -699,9 +699,9 @@ Canvas apps
 
 See Important upcoming changes and deprecations in canvas apps.
 
-Power Apps portals
+Power Pages
 
-See Important changes coming in Power Apps portals.
+See Important changes coming in Power Pages.
 
 Other deprecation articles
 
