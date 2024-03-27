@@ -1,10 +1,11 @@
 Deprecations in Customer Service
 
   
-Article														  11/23/2023  
-1 contributor															FeedbackIn this article
+Article														  03/27/2024  
+																	2 contributors
+															FeedbackIn this article
 
-The features that have been deprecated in Customer Service are listed in this article.
+The features that are deprecated in Customer Service are listed in this article.
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
@@ -12,11 +13,15 @@ Important
 
 &quot;Deprecated&quot; means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+Omnichannel for Customer Service on Unified Service Desk to be deprecated
+
+Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk will be deprecated. Support is available until October 2025.
+
 Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
-Effective November 6, 2023, Microsoft Power BI template reports for Customer Service Analytics dashboards and Omnichannel Insights will be deprecated. We recommend that you start using the out-of-box Omnichannel historical analytics and Customer Service historical analytics.
+Effective November 6, 2023, Microsoft Power BI template reports for Customer Service Analytics dashboards and Omnichannel Insights is deprecated. We recommend that you start using the out-of-box Omnichannel historical analytics and Customer Service historical analytics.
 
-The deprecated features will be supported and there will be no change in product availability until Feb 28, 2024. Starting April 30, 2024, deprecated features wonât be available to download.
+The deprecated features will be supported and there will be no change in product availability until February 28, 2024. Starting April 30, 2024, deprecated features wonât be available to download.
 
 Intraday insights reports in Omnichannel for Customer Service are deprecated
 
@@ -28,7 +33,7 @@ Some admin apps are deprecated
 
 With the release of the Customer Service admin center app that consolidates admin experiences across the Customer Service suite, we announce that the following admin experiences are deprecated and no longer supported after April 2023.
 
-  Service Management area in the Customer Service Hub app  Omnichannel admin center  App profile manager:   Is removed in April 2023.Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: Get started with Customer Service admin center
+  Service Management area in the Customer Service Hub app  Omnichannel admin center  App profile manager:   Was removed in April 2023.Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: Get started with Customer Service admin center
 
 Omnichannel Administration app is deprecated and removed in July 2023
 
@@ -40,7 +45,7 @@ Effective April 2023, the Omnichannel for Customer Service agent-facing app is d
 
 setContextProvider method for authenticated chat is deprecated
 
-The setContextProvider method for authenticated chat has been deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: Send authentication tokens
+The setContextProvider method for authenticated chat is deprecated and isn't supported as of October 1, 2021. We recommend that you use the JWT token for authenticated chat. More information: Send authentication tokens
 
 Support for some knowledge management entities is deprecated 
 
@@ -48,7 +53,7 @@ The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management enti
 
 Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
 
-Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they'll receive a non-dismissible message informing them why they're blocked and to use Customer Service on Microsoft Edge. More information: Support end for Internet Explorer
+Effective October 31, 2022, Dynamics 365 Customer Service and Power Platform are blocked in Internet Explorer. As of early October 2022, users are redirected to Microsoft Edge if it's installed on their device. Otherwise, they receive a non-dismissible message informing them why they're blocked and to use Customer Service on Microsoft Edge. More information: Support end for Internet Explorer
 
 
 
@@ -58,8 +63,6 @@ Automatic record creation rules in web client are deprecated
 
 Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. We recommend that you migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see Migrate automatic record creation rules and service-level agreements. You can also refer to the migration playbook, which includes all the information you need to work on the migration. More information: Dynamics 365 SLA and ARC Migration Playbook.
 
-Microsoft will continue to provide support and critical security updates for these features in the web client until April 01, 2023.
-
 Note
 
 The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
@@ -68,17 +71,15 @@ SLAs in web client are deprecated
 
 Effective October 1, 2020, the service-level agreements (SLAs) are deprecated in the web client. We recommend that you migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see Migrate automatic record creation rules and service-level agreements. You can also refer to the migration playbook, which includes all the information you need to work on the migration. More information: Dynamics 365 SLA and ARC Migration Playbook.
 
-Microsoft will continue to provide support and critical security updates for these features in the web client until April 1, 2023.
-
 Note
 
 The deprecation isn't applicable to the features in Dynamics 365 Customer Engagement (on-premises).
 
 Service scheduling in Dynamics 365 Customer Service is deprecated
 
-The existing service scheduling functionality is deprecated, and is longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is now available in Unified Interface.
+The existing service scheduling functionality is deprecated, and is no longer available as of December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is available in Unified Interface.
 
-Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
+Existing service scheduling users are provided with advanced notice for a time-bound migration to the new scheduling capabilities.
 
 There are two approaches to migrate to the scheduling experience:
 
@@ -88,7 +89,7 @@ If your organization requires features that rely on legacy APIs, the product tea
 
 Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality has been replaced by entitlements in Unified Interface. The web client will not be available afterâ¯Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommendâ¯that youâ¯migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see Strategy for migrating from contracts to entitlements.
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality is replaced with entitlements in Unified Interface. The web client will not be available afterâ¯Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommendâ¯that youâ¯migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see Strategy for migrating from contracts to entitlements.
 
 Standard SLAs in Dynamics 365 Customer Service are deprecated
 
@@ -100,7 +101,7 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 
 Customer Service workspace legacy layout is deprecated
 
-The Customer Service workspace legacy layout is deprecated as of April 2023, and won't be supported after October 2023. For more information, see Deprecated Customer Service workspace layout
+The Customer Service workspace legacy layout is deprecated as of April 2023, and is no longer supported as of October 2023. For more information, see Deprecated Customer Service workspace layout
 
 ResponsibleContactId lookup attribute is deprecated
 
