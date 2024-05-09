@@ -1,7 +1,7 @@
 Deprecations in Customer Service
 
   
-Article														  04/05/2024  
+Article														  05/09/2024  
 																	3 contributors
 															FeedbackIn this article
 
@@ -12,6 +12,10 @@ Administrators and IT professionals can use this information to prepare for futu
 Important
 
 &quot;Deprecated&quot; means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+Diagnostics in unified routing is deprecated and will be removed in July 2024
+
+The diagnostics feature in unified routing is deprecated as on May 09, 2024, and will be removed by July 01, 2024. We recommend that you use Conversation diagnostics in Azure Application Insights to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in Manage routing diagnostics data. Contact Microsoft Support if you need help.
 
 Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
