@@ -1,9 +1,6 @@
 Important upcoming changes (deprecations) in canvas apps
 
-  
-Article														  03/03/2023  
-																	2 contributors
-															FeedbackIn this article
+  Article  03/03/2023  2 contributorsFeedbackIn this article
 
 The announcements for changes (deprecations) described in this article apply to canvas apps.
 
@@ -11,7 +8,7 @@ Makers, developers, and IT professionals can use this information to prepare for
 
 Important
 
-&quot;Deprecated&quot; means we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+"Deprecated" means we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
 Deprecated endpoints
 
