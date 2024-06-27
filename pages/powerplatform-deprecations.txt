@@ -1,9 +1,6 @@
 Important changes (deprecations) coming in Power Platform
 
-  
-Article														  06/07/2024  
-																	45 contributors
-															FeedbackIn this article
+  Article  06/07/2024  45 contributorsFeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
 
@@ -11,7 +8,7 @@ For deprecation information of other products, see Other deprecation articles la
 
 Important
 
-&quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+"Deprecated" means we intend to remove the feature or capability from a future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
 Schema for DLP activity logging
 
@@ -63,7 +60,7 @@ As part of our ongoing efforts to enhance the security and performance of Datave
 
 What is changing?
 
-If a Microsoft Accounts (MSA) or Microsoft Entra accounts that aren't registered in your Microsoft Entra tenant, you won't be able to access Dataverse on the common endpoint. You'll see an error message like &quot;Microsoft EntraSTS50020: user account 'contoso@contoso.com; from identity provider 'https://sts.windows.net/{tenant ID}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application ID}'(Dataverse org name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra user account.&quot;. Previously, Dataverse would deny access to these accounts, but now they are blocked at the Microsoft Entra tenant level. This change doesn't affect GDAP or CSP users.
+If a Microsoft Accounts (MSA) or Microsoft Entra accounts that aren't registered in your Microsoft Entra tenant, you won't be able to access Dataverse on the common endpoint. You'll see an error message like "Microsoft EntraSTS50020: user account 'contoso@contoso.com; from identity provider 'https://sts.windows.net/{tenant ID}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application ID}'(Dataverse org name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra user account.". Previously, Dataverse would deny access to these accounts, but now they are blocked at the Microsoft Entra tenant level. This change doesn't affect GDAP or CSP users.
 
 What do you need to do?
 
@@ -146,7 +143,7 @@ Cloud flows that use the Microsoft Dataverse (legacy) connector need to be updat
 
 Action required by you
 
-Review the cloud flows you own that use the Microsoft Dataverse (legacy) connector and identify which are ready to update. As of January 2024, most flows using the legacy connector are recommended for migration with the exception of flows using &quot;When a row is selected&quot; trigger or triggering based on changes in other environments. An update will be shared in March 2024 on the Public Preview and GA timelines for these to be supported in the Microsoft Dataverse connector.
+Review the cloud flows you own that use the Microsoft Dataverse (legacy) connector and identify which are ready to update. As of January 2024, most flows using the legacy connector are recommended for migration with the exception of flows using "When a row is selected" trigger or triggering based on changes in other environments. An update will be shared in March 2024 on the Public Preview and GA timelines for these to be supported in the Microsoft Dataverse connector.
 
 A migration assistant is available on the detail page of cloud flows that are able to be automatically updated. The assistant creates a copy of the flow with the legacy connector's triggers, actions, and dynamic content references replaced. In January 2024, support was added for connection creation, migration to the latest connector for all non-solution and unmanaged solution flows, and actions connecting to other environments.
 
@@ -233,7 +230,7 @@ If you have questions about the deprecation, contact your Microsoft Customer Ser
 
 Support for viewing and managing application users in legacy web client is deprecated
 
-Effective February 2022, the list of &quot;Application Users&quot; won't be available under Advanced Settings &gt; Security &gt; Users. You can use the Power Platform admin center to view and manage application users. See Manage application users in the Power Platform admin center.
+Effective February 2022, the list of "Application Users" won't be available under Advanced Settings &gt; Security &gt; Users. You can use the Power Platform admin center to view and manage application users. See Manage application users in the Power Platform admin center.
 
 The Analyze section, in mobile offline profiles is deprecated
 
@@ -260,7 +257,7 @@ Why is this needed?
 
   Makers have moved away from low-density headers and usage is low.  Low-density headers don't promote a highly dense experience and require users to always use the flyout for all controls across view-port sizes from small to very-wide.Impact
 
-Any current form that is configured to be &quot;low-density&quot; is automatically updated to render in a high density with flyout mode in a model driven app. Below is an example of high-density header with flyout:
+Any current form that is configured to be "low-density" is automatically updated to render in a high density with flyout mode in a model driven app. Below is an example of high-density header with flyout:
 
 
 
@@ -292,7 +289,7 @@ With the upcoming 2021 release wave 1 (public preview in February 2021 and GA in
 
 Why is this needed?
 
-  These controls are outdated and don't conform to our current standards for useability and accessibility.  For example, we've received feedback that the Flip Label control is difficult to determine its intended use and users commonly don't see the options available to choose from, such as &quot;yes / no&quot; or &quot;enable / disable.&quot;Impact
+  These controls are outdated and don't conform to our current standards for useability and accessibility.  For example, we've received feedback that the Flip Label control is difficult to determine its intended use and users commonly don't see the options available to choose from, such as "yes / no" or "enable / disable."Impact
 
   Starting April 2021, these controls can no longer be added to forms.  For instances of Flip Label control, the control will be replaced with a dropdown control.  For all other controls, they'll continue to work within existing forms until April 2022.Action required by you
 
@@ -318,7 +315,7 @@ TLS RSA cipher suites are deprecated
 
 Effective October 30, 2020, the following cipher suites are being deprecated from our servers.
 
-  &quot;TLS_RSA_WITH_AES_256_GCM_SHA384&quot;  &quot;TLS_RSA_WITH_AES_128_GCM_SHA256&quot;  &quot;TLS_RSA_WITH_AES_256_CBC_SHA256&quot;  &quot;TLS_RSA_WITH_AES_128_CBC_SHA256&quot;Cipher suites are used to encrypt messages to secure a network connection between clients/servers and other servers. We're removing the above list of cipher suites to comply with our current security protocols.
+  "TLS_RSA_WITH_AES_256_GCM_SHA384"  "TLS_RSA_WITH_AES_128_GCM_SHA256"  "TLS_RSA_WITH_AES_256_CBC_SHA256"  "TLS_RSA_WITH_AES_128_CBC_SHA256"Cipher suites are used to encrypt messages to secure a network connection between clients/servers and other servers. We're removing the above list of cipher suites to comply with our current security protocols.
 
 Beginning March 1, 2021, customers can only use our standard cipher suites. This change impacts your clients and servers that communicate with our servers, for example, syncing emails from your Microsoft Exchange server, running outbound plug-ins, using native (local) clients to access our servers.
 
@@ -468,7 +465,7 @@ affects applications that utilize
 Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy
 and
 Microsoft.Xrm.Tooling.Connector.CrmServiceClient
-classes for the authentication type of &quot;Office365&quot;.
+classes for the authentication type of "Office365".
 
 We're making this change to remove a security protocol (WS-Trust) that is
 inherently insecure by current encryption standards. While Microsoft has worked
