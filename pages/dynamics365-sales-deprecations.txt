@@ -32,7 +32,7 @@ Effective October 1, 2023, the following Exchange-based cards will be deprecated
 
 Rank optimization of insight cards will be deprecated
 
-Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use. Learn more.
+Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.
 
 
 
