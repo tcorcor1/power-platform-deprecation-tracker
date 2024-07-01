@@ -1,6 +1,6 @@
 Deprecations in Customer Service
 
-  Article  06/06/2024  3 contributorsFeedbackIn this article
+  Article  07/01/2024  3 contributorsFeedbackIn this article
 
 The features that are deprecated in Customer Service are listed in this article.
 
@@ -16,9 +16,9 @@ The channel for Google's Business Messages in Omnichannel for Customer Service w
 
 The following are key dates for the channel for Google's Business Messages deprecation in Omnichannel for Customer Service:
 
-  July 1, 2024: No new messages can be sent or received in Google's Business Messages after this date.  July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.Diagnostics in unified routing is deprecated and will be removed in July 2024
+  July 1, 2024: No new messages can be sent or received in Google's Business Messages after this date.  July 31, 2024: Google's Messages for Business will be fully deprecated and no longer accessible.Diagnostics in unified routing is deprecated and will be removed in August 2024
 
-The diagnostics feature in unified routing is deprecated as of May 09, 2024. The diagnostics for new records won't be generated from July 01, 2024, and the feature will be removed by July 15, 2024. We recommend that you use Conversation diagnostics in Azure Application Insights to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in Manage routing diagnostics data. Contact Microsoft Support if you need help.
+The diagnostics feature in unified routing is deprecated as of May 09, 2024, and will be removed on August 01, 2024. We recommend that you use Conversation diagnostics in Azure Application Insights to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in Manage routing diagnostics data. Contact Microsoft Support if you need help.
 
 Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
