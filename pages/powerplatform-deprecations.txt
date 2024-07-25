@@ -2,7 +2,7 @@ Important changes (deprecations) coming in Power Platform
 
   
 Article														  06/07/2024  
-																	45 contributors
+																	46 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -11,7 +11,7 @@ For deprecation information of other products, see Other deprecation articles la
 
 Important
 
-&quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+&quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
 Schema for DLP activity logging
 
@@ -342,7 +342,7 @@ Effective August 26, 2020, the online management API PowerShell module, and the 
 
 Company News Timeline solution is deprecated
 
-Effective July 10, 2020, the Company News Timeline solution, which delivers relevant news from Bing News about customers and categorizes it in inline when you're looking at customer accounts will be deprecated. Until September 10, 2020, Microsoft will continue to provide support for the feature, but won't release any other functionality beyond what is already present. Starting September 10, 2020, you'll need to uninstall the solution, which will remove the news widget from the Account record pages.
+Effective July 10, 2020, the Company News Timeline solution, is deprecated. Until September 10, 2020, Microsoft will continue to provide support for the feature, but won't release any other functionality beyond what is already present. Starting September 10, 2020, you'll need to uninstall the solution, which will remove the news widget from the Account record pages.
 
  To remove the solution, go to  Advanced settings  and select  Solutions . Select  CompanyNewsTimeline  and then select  Delete .As an alternative you can install news Power Apps component framework control. For more information, see Set up and use the news control.
 
@@ -578,7 +578,7 @@ and supported until they're officially removed from a future major release. A pu
 
 [ GridRow.getData ][ GridRow.data ][ GridRow is essentially a form context. This change unifies the interface of GridRow with formContext. ]
 
-[ GridRowData.getEntity  ][ GridRowData.entity ][ GridRowData is form data. This change unifies the interface of GridRowData with formContextData. ]
+[ GridRowData.getEntity ][ GridRowData.entity ][ GridRowData is form data. This change unifies the interface of GridRowData with formContextData. ]
 
 [ Xrm.Mobile.offline ][ Xrm.WebApi.offline ][ Moved the offline-related methods under Xrm.WebApi.offline ]
 
@@ -594,7 +594,7 @@ and supported until they're officially removed from a future major release. A pu
 
 [ hideAutoComplete ][ Use a custom control created using Power Apps component framework ][  ]
 
-[ [Xrm.Utility.alertDialog  ][ Xrm.Navigation.openAlertDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
+[ alertDialog ][ Xrm.Navigation.openAlertDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
 
 [ Xrm.Utility.confirmDialog ][ Xrm.Navigation.openConfirmDialog ][ The new signature is consistent with other APIs (openForm) and takes a new set of parameters for flexibility. ]
 
@@ -604,7 +604,7 @@ and supported until they're officially removed from a future major release. A pu
 
 [ Xrm.Utility.isActivityType ][ Xrm.Utility.getEntityMetadata ][ The isActivityType method is synchronous so it was suitable for ribbon rules. However, the replacement method, getEntityMetadata, is asynchronous, and isn't suitable for ribbon rules. ]
 
-[ Xrm.Utility.openEntityForm  ][ Xrm.Navigation.openForm ][ Moving navigation actions to Xrm.Navigation ]
+[ Xrm.Utility.openEntityForm ][ Xrm.Navigation.openForm ][ Moving navigation actions to Xrm.Navigation ]
 
 [ Xrm.Utility.openQuickCreate ][ Xrm.Navigation.openForm ][ Moving navigation actions to Xrm.Navigation ]
 
@@ -675,7 +675,7 @@ Relationship Roles are deprecated
 
 Relationship Roles (Settings &gt; Business Management &gt; Relationship Roles) are
 being deprecated along with their user interface components. These will be removed in a future major release.
-This feature is replaced by Connection Roles. More information: Create connections to view relationships between
+This feature is replaced by Connection Roles. For more information, go to Create connections to view relationships between
 records.
 
 Mail Merge is deprecated
@@ -711,7 +711,7 @@ with HTML5 to create UI components to visualize and interact with data.
 
 Gateways for desktop flows are deprecated
 
-Gateways for desktop flows are deprecated. Direct connectivity is the preferred option to run attended and unattended desktop flows on your machine(s). This feature is no longer supported from June 30th, 2023, and for China regions from September 30th, 2023. Switch to our machine-management capabilities. Learn more about switching from gateways to direct connectivity.
+Gateways for desktop flows are deprecated. Direct connectivity is the preferred option to run attended and unattended desktop flows on your machine(s). This feature is no longer supported from June 30, 2023, and for China regions from September 30, 2023. Switch to our machine-management capabilities. Learn more about switching from gateways to direct connectivity.
 
 Canvas apps
 
