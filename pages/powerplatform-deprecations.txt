@@ -1,8 +1,8 @@
 Important changes (deprecations) coming in Power Platform
 
   
-Article														  06/07/2024  
-																	46 contributors
+Article														  08/02/2024  
+																	47 contributors
 															FeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
@@ -12,6 +12,26 @@ For deprecation information of other products, see Other deprecation articles la
 Important
 
 &quot;Deprecated&quot; means we intend to remove the feature or capability from a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Hierarchy control in model-driven apps is deprecated
+
+Effective October 2024, theâ¯hierarchy control, which is used to define and query hierarchically related data in model-driven apps, is deprecated. The control will continue to work in existing apps until April 2025, at which time it will be removed from the product.
+
+The hierarchy control allows users to visualize relationships between records for a table. This is applicable for any table that has a self-referential relationship.
+
+Why is this needed?
+
+Due to low usage, issues with accessibility, and incompatibility with the modern look, the hierarchy control will no longer be supported.
+
+Impact
+
+After its removal, end users will not be able to view the visual representation of the hierarchical relationships of records.
+
+Action required by you
+
+You can enable the control until its removed in the product by editing the app settings. Go to Power Apps (make.powerapps.com) and open the app you want for editing. Then go to Settings &gt; Features tab and enable the Enable the &quot;View hierarchy&quot; capability setting.
+
+If the hierarchy view is essential to your app, a custom PCF control that handles the hierarchy view must be created and deployed. For information about how to create a code component, go to Create and build a code component.
 
 Schema for DLP activity logging
 
