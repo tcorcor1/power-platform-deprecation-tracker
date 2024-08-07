@@ -1,6 +1,6 @@
 Deprecations in Customer Service
 
-  Article  08/05/2024  4 contributorsFeedbackIn this article
+  Article  08/07/2024  5 contributorsFeedbackIn this article
 
 The features that are deprecated in Customer Service are listed in this article.
 
