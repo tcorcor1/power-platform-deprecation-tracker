@@ -1,9 +1,6 @@
 Important upcoming changes and deprecations in Power Pages
 
-  
-Article														  06/26/2024  
-																	9 contributors
-															FeedbackIn this article
+  Article  06/26/2024  9 contributorsFeedbackIn this article
 
 The announcements for changes and deprecations described in this article apply to Power Pages. Makers, developers, and IT pros can use this information to prepare for future releases.
 
@@ -17,11 +14,11 @@ In July 2024, we're introducing improvements to the way text, image, and button 
 
 We'll also change the way button components are created. Previously, buttons were represented using the &lt;button&gt; HTML tag with URLs handled by the onclick attribute:â¯
 
-&lt;button onclick=&quot;window.location.href='/page/subpage-1/'&quot; type=&quot;button&quot; value=&quot;subpage-1&quot; class=&quot;button1&quot;&gt;Add a call to action here&lt;/button&gt;
+&lt;button onclick="window.location.href='/page/subpage-1/'" type="button" value="subpage-1" class="button1"&gt;Add a call to action here&lt;/button&gt;
 
 With the upcoming improvements, all new button components are created using the &lt;a&gt; anchor tag, with the href attribute responsible for URL navigation. Any &lt;a&gt; tag with the btn class are recognized as a button component in design studio:
 
-&lt;a href=&quot;/page/subpage-1/&quot; class=&quot;btn button1&quot;&gt;Add a call to action here&lt;/a&gt;
+&lt;a href="/page/subpage-1/" class="btn button1"&gt;Add a call to action here&lt;/a&gt;
 
 This change only applies to new buttons. Buttons that were previously created aren't impacted and continue to work in design studio. However, you might need to adjust any custom CSS or JavaScript that uses the &lt;button&gt; tag for selection.
 
