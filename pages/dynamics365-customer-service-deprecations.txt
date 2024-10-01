@@ -1,6 +1,6 @@
 Deprecations in Customer Service
 
-  Article  08/07/2024  5 contributorsFeedbackIn this article
+  Article  10/01/2024  5 contributorsFeedbackIn this article
 
 The features that are deprecated in Customer Service are listed in this article.
 
@@ -102,7 +102,7 @@ If your organization requires features that rely on legacy APIs, the product tea
 
 Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality is replaced with entitlements in Unified Interface. The web client will not be available afterâ¯Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommendâ¯that youâ¯migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, go to Strategy for migrating from contracts to entitlements.
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. This functionality is replaced with entitlements in Unified Interface. The web client was removed as on December 1, 2020. We recommendâ¯that youâ¯migrate your contracts to entitlements by using the Strategy for migrating from contracts to entitlements.
 
 Standard SLAs in Dynamics 365 Customer Service are deprecated
 
