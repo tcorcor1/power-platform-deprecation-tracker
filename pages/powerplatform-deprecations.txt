@@ -1,6 +1,6 @@
 Important changes (deprecations) coming in Power Platform
 
-  Article  10/01/2024  48 contributorsFeedbackIn this article
+  Article  10/01/2024  49 contributorsFeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
 
@@ -12,7 +12,7 @@ Important
 
 Deprecation of Organization Insights Dashboard
 
-The Organization Insights dashboard has been deprecated from the Microsoft Power Apps Default Soltion dashbards. Similar organization insights are available in Microsoft Dataverse analytics.
+The Organization Insights dashboard has been deprecated from the Microsoft Power Apps Default Solution dashbards. Similar organization insights are available in Microsoft Dataverse analytics.
 
 As part of a service update to enhance security in Power Apps, we're removing Highcharts version 4.2.3.
 
