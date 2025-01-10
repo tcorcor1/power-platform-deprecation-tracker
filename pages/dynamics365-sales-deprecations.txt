@@ -1,12 +1,16 @@
-Deprecations in Dynamics 365 Sales
+Removed or deprecated features in Dynamics 365 Sales
 
-  Article  01/02/2025  4 contributorsFeedbackIn this article
+  Article  01/09/2025  4 contributorsFeedbackIn this article
 
-The features that have been deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps.
+The features that have been removed or deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps.
 
 Important
 
-"Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+"Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+Copilot for email in side pane
+
+Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the Copilot email assist feature to compose and send emails through the rich text editor.
 
 Assistant card templates
 
@@ -52,7 +56,7 @@ You can switch to basic auto capture to get activity suggestions. However, no al
 
 Note
 
-If youâve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.
+If youâve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid won't show any suggestions after the feature is deprecated.
 
 Dynamics 365 assistant cards - Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection)
 
