@@ -1,6 +1,6 @@
 Important changes (deprecations) coming in Power Platform
 
-  Article  02/13/2025  53 contributorsFeedbackIn this article
+  Article  03/03/2025  53 contributorsFeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
 
@@ -9,6 +9,12 @@ For deprecation information of other products, see Other deprecation articles la
 Important
 
 "Deprecated" means we intend to remove the feature or capability from a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Deprecation of Cards for Power Apps
+
+Effective August 29, 2025, Cards for Power Apps will be deprecated and no longer supported. As a result, any Cards for Power Apps that have been built and shared in Microsoft Teams will not function. Users will not be able to create new cards or execute existing ones.
+
+We recommend migrating any functionality you rely on from Cards for Power Apps before the deprecation date. Consider transitioning to either Adaptive Cards in Copilot Studio or adaptive cards for Microsoft Teams for similar functionality.
 
 Deprecation of Train with examples to transform examples to Power Fx formulas
 
