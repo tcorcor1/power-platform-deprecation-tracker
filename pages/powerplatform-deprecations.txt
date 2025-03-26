@@ -1,6 +1,6 @@
 Important changes (deprecations) coming in Power Platform
 
-  Article  03/24/2025  54 contributorsFeedbackIn this article
+  Article  03/25/2025  54 contributorsFeedbackIn this article
 
 The announcements and deprecations described in this article apply to Power Apps and Power Automate. Admins and IT professionals can use this information to prepare for future releases. This article was first published on June 27, 2017.
 
@@ -9,6 +9,20 @@ For deprecation information of other products, see Other deprecation articles la
 Important
 
 "Deprecated" means we intend to remove the feature or capability from a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Deprecation of SQL server connector's V1 actions
+
+The SQL server connector's V1 actions are being retired and starting 30 June 2025 these actions will no longer be supported and will be disabled.
+
+We have V2 actions already available in the SQL server connector which can be used as an alternative. You can find more details about the new V2 actions here: SQL server actions. We strongly encourage you to migrate to the new V2 actions as soon as possible to take full advantage of these improvements.
+
+How does this affect me?
+
+If action isn't taken, beginning 30 June 2025, the application(s) using the V1 actions of SQL server will be impacted and may no longer function as expected.
+
+Required action
+
+Please make sure you replace the V1 actions with the new V2 actions of the SQL server connector in all of the applications utilizing it. If you need assistance in Migrating V1 operations to V2 equivalent. Please check here: SQL server actions
 
 Deprecation of rich text editor classic experience
 
@@ -36,7 +50,7 @@ Action required by you
 
 If you wish to continue using Power Automate, transitioning to the Power Apps Developer Plan is strongly recommended. This transition provides access to modern features and allows for seamless management of your workflows.
 
-Complete the following steps.
+Complete the following steps:
 
  No work or school email?  Create a sandbox tenant to set up an eligible account. Follow the steps outlined in  Create a developer environment with the Power Apps Developer Plan .
 
