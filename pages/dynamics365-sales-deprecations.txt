@@ -34,6 +34,12 @@ Copilot for email in side pane
 
 Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the Copilot email assist feature to compose and send emails through the rich text editor.
 
+
+
+LinkedIn lead generation capabilities
+
+Effective December 2024, LinkedIn lead generation capabilities are deprecated. You can however, develop your own custom integration. Learn more in the LinkedIn Lead Sync Integration blog post.
+
 Assistant card templates
 
 Effective August 1, 2024, templates to create new assistant cards won't be available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. Learn more.
