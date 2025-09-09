@@ -196,9 +196,9 @@ You can temporarily enable the control until its removed in the product by editi
 
 This feature is fully removed October 2025.
 
-If the hierarchy view is essential to your app, a custom PCF control that handles the hierarchy view must be created and deployed. For information about how to create a code component, go to Create and build a code component.
+If a hierarchy view is essential to your app, you have a couple options:
 
-Deprecation of schema for data policy activity logging
+  Dynamics 365 Sales customers can use the new hierarchy visualization feature. This customizable control supports in place editing, with the ability to define complex multi-table hierarchies. More information:   Overview of hierarchy visualization  Customers with more technical expertise can build and deploy their own custom PCF control. For information about how to create a code component, go to   Create and build a code component  .Deprecation of schema for data policy activity logging
 
 The schema for data policy activity logging is deprecated and won't be available starting in July 2024. You can use the new schema available at Activity category: Data policy events.
 
