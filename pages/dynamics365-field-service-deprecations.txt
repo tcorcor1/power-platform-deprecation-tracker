@@ -12,9 +12,9 @@ The following Dynamics 365 Field Service integrations will no longer be availabl
 
   Microsoft Outlook Add-in  Microsoft Teams app  Microsoft Viva Connections  Microsoft PlannerThese integrations aren't supported after October 30, 2025. Instead, look to a simpler, more integrated Field Service experience inside Microsoft 365. Learn more at: Field Service release plans.
 
-Dynamics 365 Field Service reports and features - May 25, 2025
+Dynamics 365 Field Service reports - May 25, 2025
 
-The following Dynamics 365 Field Service reports and features are deprecated after May 25, 2025 and aren't supported after August  2025.
+The following Dynamics 365 Field Service reports are deprecated after May 25, 2025 and aren't supported after August  2025.
 
   Resource and Utilization in Field Service  Work order summary in Field Service  Admin Report in Resource Scheduling Optimization  Optimization Summary in Resource Scheduling Optimization  Calls Dashboard in Remote AssistTo make your transition easier, migrate to Microsoft Fabric. Microsoft Fabric lets you recreate and customize reports to fit your organizationâs needs. You can tailor dashboards and keep getting insights from your data with more flexibility and power. This move gives you a more dynamic and ready-for-the-future reporting experience.
 
