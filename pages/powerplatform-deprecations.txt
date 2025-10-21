@@ -8,6 +8,22 @@ Important
 
 "Deprecated" means we intend to remove the feature or capability from a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability will no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
+Deprecation of create an app from an image or Figma file
+
+Starting October 21, 2025, makers will no longer be able to create new apps using  the An image or Figma file option in Power Apps.
+
+Why is this needed?
+
+We are bringing new capabilities to help you create apps such as plans and generative pages.
+
+Impact
+
+There is no impact on existing apps created using an image or Figma file and will continue to be supported.
+
+Replacement feature
+
+Plans and generative pages can be used to create apps. Makers can also use third-party and community tool plugins to bring external designs into Power Apps.
+
 Deprecation of the format data by examples feature in Power Automate
 
 As of the first week of August 2025, the format data by examples feature in the Power Automate classic designer is deprecated. The feature was available worldwide and used the PROSE model to help makers write expressions for a specific use case of formatting a piece of data in a flow to another permissible data type.
