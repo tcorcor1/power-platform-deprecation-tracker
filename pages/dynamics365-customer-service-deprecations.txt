@@ -8,6 +8,10 @@ Important
 
 "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+D365 Service MCP Server is deprecated
+
+As on November 24, 2025, the D365 Service MCP Server is deprecated and will be removed in a future release. We recommend that you use the new Dynamics 365 Customer Service MCP Server and remove the deprecated tool.
+
 Historical analytics dashboards for unified routing are deprecated in Customer Service and Dynamics 365 Contact Center
 
 Starting June 30, 2025, Historical analytics for unified routing in Omnichannel for Customer Service and Historical analytics for unified routing in Customer Service dashboards are deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
