@@ -4,11 +4,11 @@ The announcements for changes and deprecations described in this article apply t
 
 Important
 
-Deprecated means that we intend to remove the feature or capability from a future major release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+Deprecated means that we intend to remove the feature or capability from a future major release. The feature or capability continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
 Enhanced link creation in design studio
 
-In July 2024, we're introducing improvements to the way text, image, and button links are created in Power Pages design studio. The Link to a URL field will accept any type of link, including mailto and tel links. Additionally, there will be a new option to choose whether the link opens in a new window or the current one.
+In July 2024, we're introducing improvements to the way text, image, and button links are created in Power Pages design studio. The Link to a URL field accepts any type of link, including mailto and tel links. Additionally, there will be a new option to choose whether the link opens in a new window or the current one.
 
 We'll also change the way button components are created. Previously, buttons were represented using the &lt;button&gt; HTML tag with URLs handled by the onclick attribute:â¯
 
@@ -64,7 +64,7 @@ At launch, users with the system administrator role along with service admins wi
 
 Note
 
-After October 1, 2023 system administrators will not be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: Change tenant-level setting
+After October 1, 2023 system administrators won't be able to change site visibility when the tenant-level setting is null.  To prevent this, set the value for the tenant level setting to either TRUE or FALSE. More information: Change tenant-level setting
 
 OAuth 2.0 implicit grant flow within your portal
 
@@ -78,13 +78,13 @@ Starting June 2022, using OData feeds to interact with data via RESTful web serv
 
 Note
 
-  Starting October 2022, newly provisioned websites won't able to use list OData features.  The OData feeds list feature will be removed April 1, 2024.Portal content editor
+  Starting October 2022, newly provisioned websites won't able to use list OData features.  The OData feeds list feature will be removed by June  2026.Portal content editor
 
 Starting June 2022, the portal content editor tool to design your website is deprecated. We recommend using Power Apps portals Studio to edit the portal.
 
 Note
 
-This feature will be removed by October 1, 2023.
+This feature will be removed by June  2026.
 
 Portals search using Lucene.NET search
 
@@ -96,7 +96,7 @@ All existing customers who use Lucene.NET search must migrate to Dataverse searc
 
 Content Delivery Network for US Government
 
-Starting January 2022, Power Apps portals for US Government will begin using Azure Content Delivery Network for default JavaScript and CSS files. Depending on the US Government deployment, configure the allowlist for the following Content Delivery Network URLs as follows.
+Starting January 2022, Power Apps portals for US Government begins using Azure Content Delivery Network for default JavaScript and CSS files. Depending on the US Government deployment, configure the allow list for the following Content Delivery Network URLs as follows.
 
 [ Power Pages version ][ Content Delivery Network URL ]
 
@@ -109,6 +109,8 @@ Starting January 2022, Power Apps portals for US Government will begin using Azu
 
 
 Table permission changes for forms and lists on new websites
+
+Starting June 2026, websites will have table permissions enforced for all forms and lists, regardless of the Enable Table Permissions setting.
 
 Starting with release 9.3.7.x, newly created websites will have table permissions enforced for all forms and lists, irrespective of the Enable Table Permissions setting.
 
