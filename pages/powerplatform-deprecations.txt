@@ -86,17 +86,17 @@ Starting January 2026, Copilot chat in model-driven apps in environments not ena
 
 Why is this needed?
 
-We are unifying the chat experience across apps with Microsoft 365 Copilot chat, which is becoming the new standard in Power Apps. As Microsoft 365 Copilot chat gradually replaces Copilot chat in model-driven apps, makers will have the flexibility to use one or both chat experiences during the transition period.
+We are unifying the chat experience across apps with Microsoft 365 Copilot, which is becoming the new standard in Power Apps. As Microsoft 365 Copilot gradually replaces Copilot chat in model-driven apps, makers will have the flexibility to use one or both chat experiences during the transition period.
 
 Impact
 
-Microsoft 365 Copilot chat is gradually replacing Copilot chat in model-driven apps.
+Microsoft 365 Copilot is gradually replacing Copilot chat in model-driven apps.
 
 During the transition period, makers can enable either one or both chat experiences. When both options are available, the Copilot dropdown menu shows the following options:
 
-  Chat   button opens   Microsoft 365 Copilot chat  .  App Skills   button opens   Copilot chat in model-driven apps  .Replacement feature
+  Chat   button opens   Microsoft 365 Copilot  .  App Skills   button opens   Copilot chat in model-driven apps  .Replacement feature
 
-Microsoft 365 Copilot chat is now the recommended solution for natural language interactions in model-driven apps. To ensure a smooth transition and prevent any disruption when Copilot chat is retired, we recommend that you migrate to Microsoft 365 Copilot chat as soon as it becomes available in your environment.
+Microsoft 365 Copilot is now the recommended solution for natural language interactions in model-driven apps. To ensure a smooth transition and prevent any disruption when Copilot chat is retired, we recommend that you migrate to Microsoft 365 Copilot as soon as it becomes available in your environment.
 
 Deprecation of the classic look for model-driven apps
 
