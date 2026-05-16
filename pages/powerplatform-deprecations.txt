@@ -112,7 +112,7 @@ Microsoft 365 Copilot is now the recommended solution for natural language inter
 
 Deprecation of the classic look for model-driven apps
 
-Starting in April 2026, makers will no longer be able to switch to the classic look in model-driven apps. All apps will use the modern, refreshed look by default.
+Starting in April 2026, makers will no longer be able to switch to the classic look in model-driven apps. This timing applies to all release channels, including the semi-annual channel. All apps will use the modern, refreshed look by default.
 
 Why is this needed?
 
@@ -120,7 +120,7 @@ We are standardizing the experience across model-driven apps to deliver a consis
 
 Impact
 
-There is no impact on app logic, data, or permissions. Existing apps will automatically display the modern look. The admin settings related to this feature will be removed.
+There is no impact on app logic, data, or permissions. Existing apps will automatically display the modern look across all release channels, including the semi-annual channel. The admin settings related to this feature will be removed.
 
 Replacement feature
 
