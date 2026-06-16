@@ -13,6 +13,12 @@ The setup assistant, an AI-assisted chat-based setup feature available in previe
 
 No action is required, but admins who used the preview should transition to the manual setup process and infosrm any users testing the feature.
 
+
+
+Link Dynamics 365 records to Microsoft Teams channels
+
+Effective May 2026, the ability to link Dynamics 365 records to Microsoft Teams channels is deprecated. After the deprecation, it is recommended to use Dynamics 365 directly in the browser.
+
 Add chat message to Dynamics 365 record in Microsoft Teams
 
 Effective January 2026, the ability to add chat messages from Microsoft Teams to Dynamics 365 records is deprecated. After the deprecation, you can no longer use the Add to Dynamics 365 option in Microsoft Teams chat messages to save them to Dynamics 365 records.
