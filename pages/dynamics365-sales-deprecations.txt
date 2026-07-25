@@ -6,6 +6,12 @@ Important
 
 "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+Sales Hub Dialer
+
+Effective July 2026, the Sales Hub Dialer (preview) is deprecated and removed from all environments. The Sales Hub Dialer was an embedded softphone available in preview that allowed sellers to make and receive calls directly within the Sales Hub app by using dedicated phone numbers. After removal, sellers can no longer use this feature to make or receive calls.
+
+As an alternative, use the Microsoft Teams dialer, which allows sellers to make and receive calls directly from within Dynamics 365 Sales by using Microsoft Teams. For seller instructions on making and receiving calls, see Make and receive Teams calls in Dynamics 365.
+
 Chat-based AI setup assistant for Sales Close Agent
 
 The setup assistant, an AI-assisted chat-based setup feature available in preview for Sales Close Agent, will not be available after June 2026. After which, the feature will be removed from all environments and no longer appears in the product. Organizations that used or evaluated this preview will no longer see the AI-assisted setup option. However, core Sales Close Agent functionality isn't affected, and the standard manual setup process remains fully supported.
