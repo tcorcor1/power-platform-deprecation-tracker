@@ -4,7 +4,23 @@ The announcements for changes and deprecations described in this article apply t
 
 Important
 
-Deprecated means that we intend to remove the feature or capability from a future major release. The feature or capability continue to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer work. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+Deprecated means that Microsoft intends to remove the feature or capability from a future major release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification can span a few months or years. After it's removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
+
+Wildcard value (*) in Web API field configuration
+
+Support for the wildcard value (*) in the Webapi/&lt;table-name&gt;/fields site setting is deprecated. The wildcard value exposes all columns in a Dataverse table through the Power Pages Web API.
+
+Note
+
+  August 2026  : Newly created websites can no longer use the wildcard value (  *  ) in the   Webapi/&lt;table-name&gt;/fields   site setting.  September 14, 2026  : Support for the wildcard value (  *  ) is removed for all websites. Existing websites must use an explicit list of allowed columns.What this change means for you
+
+If your website uses the wildcard value (*) in the Webapi/&lt;table-name&gt;/fields site setting, update the setting to specify the columns that should be accessible through the Power Pages Web API before September 14, 2026. For more details, see Overview of the Power Pages portals Web API.
+
+Don't wait until support is removed to make this change. Update your site settings as soon as possible to avoid potential disruptions and to ensure only intended columns are exposed through the Web API.
+
+Why is this change necessary?
+
+Using the wildcard value can unintentionally expose additional columns through the Power Pages Web API. Requiring an explicit list of columns helps improve security and maintainability by ensuring that only intended data is accessible through the Web API.
 
 Enhanced link creation in design studio
 
@@ -54,7 +70,7 @@ Starting October 2023, portals created in Power Apps portals will show in Power 
 
 Power Apps portals admin center
 
-The Power Apps portals admin center is now deprecated and no longer available as of June 2023. Use the new Power Pages admin hub in the Power Platform admin center.
+The Power Apps portals admin center is deprecated and no longer available as of June 2023. Use the new Power Pages admin hub in the Power Platform admin center.
 
 Controlling site visibility changes in Power Pages
 
