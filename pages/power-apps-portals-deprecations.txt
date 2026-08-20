@@ -152,7 +152,7 @@ With this change, we're adding a new website setting to control the SameSite mod
 
 
 
-The default value for all existing and newly provisioned websites is None.
+The default value for all existing and newly provisioned websites is Lax.
 
 To learn how to configure site settings for websites, go to Configure site settings for portals.
 
