@@ -22,6 +22,8 @@ Why is this change necessary?
 
 Using the wildcard value can unintentionally expose additional columns through the Power Pages Web API. Requiring an explicit list of columns helps improve security and maintainability by ensuring that only intended data is accessible through the Web API.
 
+For information about issues related to wildcard values in web API field configuration, go to Web API requests fail after wildcard column configuration is deprecated.
+
 Enhanced link creation in design studio
 
 In July 2024, we're introducing improvements to the way text, image, and button links are created in Power Pages design studio. The Link to a URL field accepts any type of link, including mailto and tel links. Additionally, there will be a new option to choose whether the link opens in a new window or the current one.
