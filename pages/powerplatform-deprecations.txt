@@ -210,6 +210,22 @@ Replacement feature
 
 The modern, refreshed look is now the default experience for all model-driven apps. No action is required from makers or admins. For more information on this, see Modern, refreshed look for model-driven apps.
 
+Deprecation of legacy advanced find
+
+Legacy advanced find in model-driven apps is deprecated.
+
+Why is this needed?
+
+As of September 2019, the legacy web client is deprecated. Legacy advanced find was part of that deprecation.
+
+Impact
+
+Customers who use legacy advanced find should transition to the modern experience. Feature investment focuses on modern advanced find and addressing feature gaps that block customer migration.
+
+Replacement feature
+
+Modern advanced find in model-driven apps is the recommended solution.
+
 Deprecation of create an app from an image or Figma file
 
 Starting October 21, 2025, makers will no longer be able to create new apps using  the An image or Figma file option in Power Apps.
