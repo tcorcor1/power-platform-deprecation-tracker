@@ -10,7 +10,7 @@ Important
 
 Deprecation of Microsoft Dataverse for Teams environments
 
-Microsoft Dataverse for Teams environments are deprecated. The deprecation happens in three phases. You can't create new Dataverse for Teams environments starting November 15, 2026. Existing Dataverse for Teams environments that aren't upgraded to Dataverse are suspended on September 15, 2026 and decommissioned on October 30, 2027.
+Microsoft Dataverse for Teams environments are deprecated. The deprecation happens in three phases. You can't create new Dataverse for Teams environments starting November 15, 2026. Existing Dataverse for Teams environments that aren't upgraded to Dataverse are suspended on September 15, 2027 and decommissioned on October 30, 2027.
 
 Why is this change needed?
 
@@ -22,7 +22,7 @@ Timeline
 
 [ Creation ends ][ November 15, 2026 ][ You can't create new Dataverse for Teams environments from Microsoft Teams, including when you create your first app or agent in a team or install an app from the Teams app catalog. ]
 
-[ Environments suspended ][ September 15, 2026 ][ Dataverse for Teams environments that aren't upgraded to Dataverse are suspended. Their apps, flows, agents, and data are no longer available. ]
+[ Environments suspended ][ September 15, 2027 ][ Dataverse for Teams environments that aren't upgraded to Dataverse are suspended. Their apps, flows, agents, and data are no longer available. ]
 
 [ Environments decommissioned ][ October 30, 2027 ][ Dataverse for Teams environments that aren't upgraded to Dataverse are decommissioned. Their apps, flows, agents, and data are no longer available. ]
 
@@ -32,7 +32,7 @@ Impact
 
 After November 15, 2026:
 
-  Users can't create a Dataverse for Teams environment by creating an app, flow, or agent in a team, or by installing a Dataverse for Teams app from the Teams app catalog.  Existing Dataverse for Teams environments continue to work until September 15, 2026.Starting October 30, 2027:
+  Users can't create a Dataverse for Teams environment by creating an app, flow, or agent in a team, or by installing a Dataverse for Teams app from the Teams app catalog.  Existing Dataverse for Teams environments continue to work until September 15, 2027.Starting October 30, 2027:
 
   Dataverse for Teams environments that aren't upgraded to Dataverse are decommissioned. Their apps, flows, agents, and data are no longer available.What isn't affected
 
