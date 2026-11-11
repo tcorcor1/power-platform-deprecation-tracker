@@ -103,7 +103,13 @@ Exchange-based cards
 
 Effective October 1, 2023, the following Exchange-based cards are deprecated and no longer available in Dynamics 365 Sales:
 
-  Send Content Request Card  Task Due Today Exchange Card  Upcoming Meeting Exchange Card  Recent Meeting Exchange Card  Lead Detection Card  Meeting Today Exchange Card  Missed Email Card  Issue Detection Card  Meeting Request Card  Yes or No CardYou can create your own cards using Power Automate. Learn more.
+  Send Content Request Card  Task Due Today Exchange Card  Upcoming Meeting Exchange Card  Recent Meeting Exchange Card  Lead Detection Card  Meeting Today Exchange Card  Missed Email Card  Issue Detection Card  Meeting Request Card  Yes or No Card  Upcoming Flight Exchange CardYou can create your own cards by using Power Automate. Learn more.
+
+Opportunity at risk insights cards
+
+Effective December 2022, the following insights cards are deprecated and no longer available in Dynamics 365 Sales:
+
+  Opportunity at Risk (sentiment detection)  Opportunity at Risk (phrase detection)You can create your own cards using Power Automate. Learn more.
 
 Rank optimization of insight cards
 
