@@ -8,7 +8,21 @@ Important
 
 "Deprecated" means Microsoft intends to remove the feature or capability in a future release. The feature or capability is fully supported until it's officially removed. This deprecation notification can span a few months or years. After removal, the feature or capability no longer works. This notice is to allow you sufficient time to plan and update your code before the feature or capability is removed.
 
-Retirement of Copilot in the designer for cloud flows and agent flows
+Deprecation of data export (preview)
+
+Data export (preview) in the Power Platform admin center is deprecated and will be retired in phases. After December 1, 2026, inventory data export won't be available. Usage and environment data exports aren't affected by this change and continue to run as they do today. They will be retired at a later date, with advance notice.
+
+Impact
+
+After December 1, 2026, data export no longer exports inventory data. Data you've already exported stays in your data lake.
+
+Action required
+
+To keep getting inventory data, switch to the Power Platform inventory API. Before you migrate, compare data export and the inventory API.
+
+Learn more:
+
+  Power Platform inventory API  Data export migration: Power Platform inventory API field mapping  Set up self-service analytics to export inventory and usage data (preview)Retirement of Copilot in the designer for cloud flows and agent flows
 
 On November 30, 2026, Microsoft retires Copilot in the designer for all customers in cloud flows and agent flows. This feature is the Copilot pane in the flow designer. It lets makers build and edit flows by chatting, ask questions about a flow, get help writing expressions, and troubleshoot errors.
 
