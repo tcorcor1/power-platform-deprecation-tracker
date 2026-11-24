@@ -6,7 +6,11 @@ Important
 
 "Deprecated" means Microsoft plans to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification spans at least six months. After removal, the feature or capability no longer works. Microsoft is notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-Dynamics 365 Guides and Remote Assist applications - December 19, 2025
+Dynamics 365 Field Service side chat and App Skills - November 23, 2026
+
+Dynamics 365 Field Service side chat and Field Service App Skills (Copilot in Power Apps â Field Service) in the side pane retire on January 1, 2027.
+
+  For general-purpose chat in model-driven apps, use   Microsoft Copilot in Field Service  .  For App Skills scenarios, use   Service Agent (preview)  .Dynamics 365 Guides and Remote Assist applications - December 19, 2025
 
 Dynamics 365 Guides and Remote Assist won't be available after December 31, 2026. Learn more at Dynamics 365 Guides and Remote Assist reaching end of support.
 
